@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="discography.css">
+    <title>Discography</title>
+</head>
+<body>
+
+    <div class="a">
+    </div>
+    <div class="nav-container">
+        <nav class="navbar">
+        <h1 id="navbar-logo">DISCO</h1>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"> </span>
+            <span class="bar"> </span>
+            <span class="bar"> </span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#navbar-logo" class="nav-links">Home </a></li>
+            <li><a href="#disco" class="nav-links">Discography </a></li>
+            <li><a href="#footer" class="nav-links">About Us </a></li>
+            <li><a href="#email-modal" class="nav-links nav-links-btn">Sign Up</a></li>
+           </ul>
+        </nav>
+        
+    </div>
+    <div class="main" >
+        <div class="main-container">
+            <div class="main-content">
+                <h1>DISCOVER DISCOGRAPHIES</h1>
+                <p> Dicover Discographies of an artist internationally and locally. 
+                    This website is build according to your taste in music.
+                </p>
+                <button class="main-btn"><a href="#">Let's Dive In!</a></button>
+            </div>
+            <div class="main-img-container">
+                <img src="pic.svg" alt="" id="main-img">
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="email-modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            
+            <div class="modal-content-left">
+                <img id="modal-img" src="signup1.svg" alt="">
+            </div>
+            <div class="modal-content-right">
+                <form action="/" method="GET" class="modal-form" id="form">
+                <h1>Get started with us! Create your account by filling out the information 
+                    below</h1>
+                    <div class="form-validation">
+                        <input type="name" class="modal-input" id="name" name= "name" placeholder="Enter your name">
+                        <p>Error Message</p>
+                    </div>
+                    <div class="form-validation">
+                        <input type="email" class="modal-input" id="email" name="email" 
+                        placeholder="Enter your email">
+                        <p>Error Message</p>
+                    </div>
+                    <div class="form-validation">
+                        <input type="password" class="modal-input" id="password" name="password" 
+                        placeholder="Enter your password">
+                        <p>Error Message</p>
+                    </div>
+                    <div class="form-validation">
+                        <input type="password" class="modal-input" id="password-confirm" name="password" 
+                        placeholder="Confirm your password">
+                        <p>Error Message</p>
+                    </div>
+                    <input type="submit" class="modal-input-btn" value="Sign Up">
+                    <span class="modal-input-login">Already have an account? Login 
+                    <a href="#">here </a></span>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="dis-section" id="disco">
+        <div class="dis-heading">
+            <h1>DISCOGRAPHIES JUST FOR YOU!</h1>
+        </div>
+        <div class="discography">
+            <div class="d-cell">
+                <a href="brunomars.html"><img src="bruno.jpg" alt="" class="d-cell_img"></a>
+                <div class="d-cell_text"><a href="brunomars.html">Bruno Mars</a></div>
+            </div>
+            <div class="d-cell">
+                <a href="eminem.html"><img src="eminemcover.jpg" alt="" class="d-cell_img"></a>
+                <div class="d-cell_text"><a href="brunomars.html">Eminem</div></a>
+            </div>
+            <div class="d-cell">
+                <img src="rihannacover.jpg" alt="" class="d-cell_img">
+                <div class="d-cell_text">Rihanna</div>
+            </div>
+            <div class="d-cell">
+                <img src="jasonmrazcover.jpg" alt="" class="d-cell_img">
+                <div class="d-cell_text">Jason Mraz</div>
+            </div>
+            <div class="d-cell">
+                <img src="owl.jpg" alt="" class="d-cell_img">
+                <div class="d-cell_text">Owl City</div>
+            </div>
+            <div class="d-cell">
+               <a href="/bgees.html"> <img src="beegeescover.jpg" alt="" class="d-cell_img"></a>
+                <div class="d-cell_text">BeeGees</div>
+            </div>
+            <div class="d-cell">
+                <a href="/sarahg.html"><img src="sarahgcover.jpg" alt="" class="d-cell_img"></a>
+                <div class="d-cell_text">Sarah Geronimo</div>
+            </div>
+            <div class="d-cell">
+                <img src="oorcover.jpg" alt="" class="d-cell_img">
+                <div class="d-cell_text">One Ok Rock</div>
+            </div>
+            <div class="d-cell">
+               <a href="/bnb.html"> <img src="ben-and-ben.jpg" alt="" class="d-cell_img"></a>
+                <div class="d-cell_text">Ben&Ben</div>
+            </div>
+            <div class="d-cell">
+                <a href="/moira.html"><img src="moiracover.jpg" alt="" class="d-cell_img"></a>
+                <div class="d-cell_text">Moira Dela Torre</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-container" id="footer">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h2>About Us</h2>
+                <a href="#">Customers</a>
+                <a href="#">Blog</a>
+                <a href="#">Terms of Services</a>
+            </div>
+            <div class="footer-heading footer-2">
+                <h2>Contact Us</h2>
+                <a href="#">Support</a>
+                <a href="#">Terms and Condition</a>
+            </div>
+            <div class="footer-heading footer-3">
+                <h2>Social Media</h2>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Youtube</a>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="footer-email-form">
+                <h2>Join our newsletter</h2>
+                <input type="email" placeholder="Enter your email address" id="footer-email">
+                <input type="submit" value="Sign Up" id="footer-email-btn">
+            </div>
+
+        </div>
+    </div>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]',{
+            speed: 1000,
+            speedAsDuration: true
+        });
+    </script>
+
+
+
+
+    <script src="app.js"></script>
+    
+    <br><br><br><br><br>
+    
+    
+</body>
+</html>

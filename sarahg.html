@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="title icon" type="image/png" href="images/camera-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="album.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="discography.css">
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="album">
+      <header>
+        <h1 class="d"></h1>
+      </header>
+      <section>
+        <div class="artist-info">
+            <img src="sarahgcover.jpg" alt=""><br><br>
+            <h1>Sarah Geronimo</h1>
+            
+                <p>Sarah Geronimo is a true star in every sense of the word. As the Philippines only “popstar royalty,” Sarah G is a success story in all the endeavors she takes in the field of entertainment. SG is a multi-awarded, multi-platinum recording artist, a certified movie box-office draw, an effective and trusted brand endorser, a TV-personality and an inspiration to her multitude of fans, and people of all ages.
+
+                    Her career started when she won the TV singing competition “Star For A Night” back in 2002. She has since collected numerous recognitions here and abroad including: 12 Awit awards, 26 Myx Music Award nods, 8 Aliw Awards. She was accorded 2012's MNET Asian Music Awards' Best Asian artist, MTV Europe's World Music Awards Best Southeast Asian act (2014), and 2016's Classic Rock and Roll Honour recognition for Best Asian Performer. Her full record release “The Great Unknown” is the Best Album in the 2016 Awit Awards (Manila's equivalent for the Grammy's).</p>
+        </div>
+    </section>
+
+
+
+
+      <!-- End Header -->
+      <section>
+        <a name="nature"></a>
+        <h2>Singles</h2>
+        <div class="container">
+          <a href="SG-TALA-the-film-concert-official-e-card-scaled.jpg"><img src="SG-TALA-the-film-concert-official-e-card-scaled.jpg" alt="nature1"></a>
+          <a href="This15mealbum.jpg"><img src="This15mealbum.jpg" alt="nature2"></a>
+          <a href="The_Great_Unknown_Sarah_Geronimo.jpg"><img src="The_Great_Unknown_Sarah_Geronimo.jpg" alt="nature3"></a>
+          <a href="Sarahperfectlyimperfect.jpg"><img src="Sarahperfectlyimperfect.jpg" alt="nature4"></a>
+          
+          </div>
+      </section>
+      <!-- End of Hikers Section -->
+      <button onclick="goToTop()" id="topBtn" title="Go to top of page">Top of Page</button>
+      <footer class="footer">
+        <p>
+          
+        </p>
+      </footer>
+    </div>
+   
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 4 || document.documentElement.scrollTop > 4) {
+            document.getElementById("topBtn").style.display = "block";
+        } else {
+            document.getElementById("topBtn").style.display = "none";
+        }
+    }
+    
+
+    // When the user clicks on the button, scroll to the top of the document
+    function goToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    
+    </script>
+  </body>
+</html>

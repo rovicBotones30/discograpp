@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="title icon" type="image/png" href="images/camera-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="album.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="discography.css">
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="album">
+      <header>
+        <h1 class="d"></h1>
+      </header>
+      <section>
+        <div class="artist-info">
+            <img src="beegeescover.jpg" alt=""><br><br>
+            <h1>BeeGees</h1>
+            
+                <p>The group was also music's most successful brother act. , born on September 1, 1946, in Manchester, England, and his fraternal twin brothers  and , born on December 22, 1949, on the Isle of Man, were three of five children. The three of them gravitated toward music, encouraged by their father, who saw his sons at first as a diminutive version of . The three Gibb brothers made their earliest performances at local movie theaters in Manchester in 1955, singing between shows. The family moved to Australia in 1958, resettling in Brisbane. Now known as the Brothers Gibb -- with  writing songs -- they attracted the attention of a local DJ, and eventually got their own local television show. It was around this time that they took on the name the Bee Gees (for ). The trio was astoundingly popular in the press and on television, but actual hit records eluded them.
+
+                    By late 1966, they'd decided to return to England -- which, thanks to , was now the center of the world for rock and popular music. The group had sent demo recordings ahead of them, and "Spicks & Specks" -- which became their first Australian hit while they were in mid-ocean -- had attracted the interest of manager Robert Stigwood. The trio was signed by Stigwood upon their arrival, and began shaping their sound in the environment of Swinging London.  and  alternated the lead vocal spot, harmonizing together and with .  played rhythm guitar, while  played bass, piano, organ, and Mellotron, among other instruments. Their first English recording, "New York Mining Disaster 1941," an original by the group with a haunting melody and a strangely surreal, almost psychedelic ambience, was released in mid-1967 and made the Top 20 in England and America. They had successful follow-ups with "Holiday" and "To Love Somebody," the latter actually written for  to record, and "Massachusetts," which topped the U.K. charts.</p>
+        </div>
+    </section>
+
+
+
+
+      <!-- End Header -->
+      <section>
+        <a name="nature"></a>
+        <h2>Singles</h2>
+        <div class="container">
+          <a href="How-Can-You-Mend-A-Broken-Heart-OST.webp"><img src="How-Can-You-Mend-A-Broken-Heart-OST.webp" alt="nature1"></a>
+          <a href="This_Is_Where_I_Came_In.jpg"><img src="This_Is_Where_I_Came_In.jpg" alt="nature2"></a>
+          <a href="Bee_Gees_One_Night_Only.jpg"><img src="Bee_Gees_One_Night_Only.jpg" alt="nature3"></a>
+          <a href="Album_Still_Waters.jpg"><img src="Album_Still_Waters.jpg" alt="nature4"></a>
+          
+          </div>
+      </section>
+      <!-- End of Hikers Section -->
+      <button onclick="goToTop()" id="topBtn" title="Go to top of page">Top of Page</button>
+      <footer class="footer">
+        <p>
+          
+        </p>
+      </footer>
+    </div>
+   
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 4 || document.documentElement.scrollTop > 4) {
+            document.getElementById("topBtn").style.display = "block";
+        } else {
+            document.getElementById("topBtn").style.display = "none";
+        }
+    }
+    
+
+    // When the user clicks on the button, scroll to the top of the document
+    function goToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    
+    </script>
+  </body>
+</html>

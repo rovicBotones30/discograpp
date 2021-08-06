@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="title icon" type="image/png" href="images/camera-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="album.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="discography.css">
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="album">
+      <header>
+        <h1 class="d"></h1>
+      </header>
+      <section>
+        <div class="artist-info">
+            <img src="moiracover.jpg" alt=""><br><br>
+            <h1>Moira Dela Torre</h1>
+            
+                <p>Moira Rachelle Bustamante Cruzado Dela Torre-Hernandez (born November 4, 1993), better known for her stage name Moira Dela Torre, is a Filipina singer-songwriter. She rose to fame for her covers of Imago's "Sundo", Moonstar88's "Torete", and the Himig Handog-winning single "Titibo-tibo".</p>
+        </div>
+    </section>
+
+
+
+
+      <!-- End Header -->
+      <section>
+        <a name="nature"></a>
+        <h2>Singles</h2>
+        <div class="container">
+          <a href="Moira_Dela_Torre_-_Malaya.jpg"><img src="Moira_Dela_Torre_-_Malaya.jpg" alt="nature1"></a>
+          <a href="iata.jpeg.webp"><img src="iata.jpeg.webp" alt="nature2"></a>
+          <a href="patawad_.jpg"><img src="patawad_.jpg" alt="nature3"></a>
+          <a href="moiracover.jpg"><img src="moiracover.jpg" alt="nature4"></a>
+          
+          </div>
+      </section>
+      <!-- End of Hikers Section -->
+      <button onclick="goToTop()" id="topBtn" title="Go to top of page">Top of Page</button>
+      <footer class="footer">
+        <p>
+          
+        </p>
+      </footer>
+    </div>
+   
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 4 || document.documentElement.scrollTop > 4) {
+            document.getElementById("topBtn").style.display = "block";
+        } else {
+            document.getElementById("topBtn").style.display = "none";
+        }
+    }
+    
+
+    // When the user clicks on the button, scroll to the top of the document
+    function goToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    
+    </script>
+  </body>
+</html>
